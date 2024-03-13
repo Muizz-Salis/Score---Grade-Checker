@@ -36,7 +36,7 @@ function Check(){
     } else if (score > 100){
         document.getElementById("result").innerHTML = "Invalid Number"
     }  else if(score < 0){
-        document.getElementById("result").innerHTML ="Grade is not available for grade range 0-100"
+        document.getElementById("result").innerHTML ="Grade is only available for grade range 0-100"
     }
 }
 
