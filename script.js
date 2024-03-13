@@ -22,7 +22,7 @@ function Check(){
         var songFailure = new Audio(`audio/Boo! sound effect.mp3`)
         songFailure.play()
     }else if ( score >= 40 && score < 45){
-    document.getElementById("result").innerHTML = "E  - Woeful perfoermance"
+    document.getElementById("result").innerHTML = "E  - Woeful performance"
     } else if ( score >= 46 && score < 50){
         document.getElementById("result"). innerHTML = "D - Weak Pass"
     } else if (score >= 50 && score < 59){
