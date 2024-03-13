@@ -35,6 +35,8 @@ function Check(){
         songExcellent.play()
     } else if (score > 100){
         document.getElementById("result").innerHTML = "Invalid Number"
-    } 
+    }  else if(score < 0){
+        document.getElementById("result").innerHTML ="Grade is not available for grade range 0-100"
+    }
 }
 
