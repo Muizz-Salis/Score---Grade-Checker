@@ -1,0 +1,139 @@
+
+body{
+    background-color: #015153;
+}
+.whole-container{
+    /* background-color: #015153; */
+    /* background-size: cover; */
+    /* height: 100%; */
+    z-index: 100000 !important;
+
+}
+.result-box{
+    height: 350px;
+    width: 400px;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    background-color: #333333;
+    box-shadow: 8px 1px 9px 7px rgba(165,225,235,0.41);
+
+    z-index: 1000000000000 !important;
+}
+.result-box span{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #a5e1eb;
+    font-size: 20px;;
+}
+
+.result-box h2{
+    color: white;
+}
+
+.circle-one{
+    background-color: #3e7a4f;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 5px;
+    left: 440px;
+    animation: gree 5s linear infinite;
+    opacity: 0.25;
+    
+}
+
+.circle-two{
+    background-color: #511e5c;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    animation: purpl 15s linear infinite;
+    opacity: 0.25;
+    
+}
+.circle-three{
+    background-color: #744728;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 310px;
+    left: 90px;
+    animation: beig 10s linear infinite;
+    opacity: 0.35;
+}
+
+.circle-four{
+    background-color: #8f3644;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 500px;
+    left: 790px;
+    animation: brow 5s linear infinite;
+    opacity: 0.25;
+}
+.circle-five{
+    background-color: yellow;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 260px;
+    left: 1150px;
+    animation: yello 9s linear infinite;
+    opacity: 0.35;
+    
+}
+
+
+@keyframes gree {
+    100% {
+      transform: translate(0px, 530px);
+    }
+    100% {
+      /* transform: rotate(360deg); */
+    }
+  }
+
+  @keyframes brow {
+    100% {
+      transform: translate(0px, -470px);
+    }
+    100% {
+      /* transform: rotate(360deg); */
+    }
+  }
+
+  @keyframes yello {
+    100% {
+      transform: translate(-1100px, 0px);
+    }
+    100% {
+      /* transform: rotate(360deg); */
+    }
+  }
+
+  @keyframes beig {
+    100% {
+      transform: translate(1100px, 0px);
+    }
+    100% {
+      /* transform: rotate(360deg); */
+    }
+  }
+
+  @keyframes purpl {
+    100% {
+      transform: translate(1100px, 0px);
+    }
+    100% {
+      /* transform: rotate(360deg); */
+    }
+  }
+
+
+
+
+
+

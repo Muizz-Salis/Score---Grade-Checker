@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Score Grade System</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+</head>
+<body>
+    <div class="cycle">
+        <div class="circle-one rounded-circle"></div>
+        <div class="circle-two rounded-circle"></div>
+        <div class="circle-three rounded-circle"></div>
+        <div class="circle-four rounded-circle"></div>
+        <div class="circle-five rounded-circle"></div>
+        <div class="circle-six rounded-circle"></div>
+        <div class="circle-seven rounded-circle"></div>
+        </div>
+
+    <div class="whole-container">
+        <div class="result-box text-center rounded mx-auto">
+            <span class=""> Welcome to Students' Grade Result Portal</span>
+            <p class=" p-2 text-danger fw-semibold fst-italic">Please note that your score values can only range from 0-100. <br> As such, please input score values responsibly. </p>
+        <div class="input-group ps-2 pe-2 mx-auto">
+            <input type="text" id="score" class="form-control shadow-none" placeholder="Enter your score here" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button onclick="Check()" class="btn btn-outline-secondary bg-success text-white" type="button" id="button-addon2">Check</button>
+          </div>
+          <h2 id="result"></h2>
+        </div>
+    </div>
+
+    <div class=""></div>
+
+   
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

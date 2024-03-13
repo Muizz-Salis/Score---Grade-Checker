@@ -1,0 +1,110 @@
+@media screen and (max-width: 475px) {
+    body{
+        overflow-x: hidden;
+    }
+    .result-box{
+        /* border:  2px solid red; */
+        padding: 0px 20px;
+    }
+
+    .circle-one{
+        background-color: #3e7a4f;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        top: 5px;
+        left: 30px;
+        animation: gree 5s linear infinite;
+        opacity: 0.25;
+    }
+
+    .circle-two{
+        background-color: #511e5c;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        top: 170px;
+        left: 90px;
+        animation: purpl 15s linear infinite;
+        opacity: 0.25;
+        
+    }
+
+    .circle-three{
+        background-color: #744728;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        top: 310px;
+        left: 90px;
+        animation: beig 10s linear infinite;
+        opacity: 0.35;
+    }
+
+    .circle-four{
+        background-color: #8f3644;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        top: 500px;
+        left: 350px;
+        animation: brow 8s linear infinite;
+        opacity: 0.25;
+    }
+
+    .circle-five{
+        background-color: yellow;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        top: 260px;
+        left: 400px;
+        animation: yello 7s linear infinite;
+        opacity: 0.35;
+        
+    }
+
+    @keyframes gree {
+        100% {
+          transform: translate(0px, 550px);
+        }
+        100% {
+          /* transform: rotate(360deg); */
+        }
+      }
+
+      @keyframes purpl {
+        100% {
+          transform: translate(300px, 0px);
+        }
+        100% {
+          /* transform: rotate(360deg); */
+        }
+      }
+      @keyframes beig {
+        100% {
+          transform: translate(300px, 0px);
+        }
+        100% {
+          /* transform: rotate(360deg); */
+        }
+      }
+
+      @keyframes brow {
+        100% {
+          transform: translate(0px, -550px);
+        }
+        100% {
+          /* transform: rotate(360deg); */
+        }
+      }
+
+      @keyframes yello {
+        100% {
+          transform: translate(-400px, 0px);
+        }
+        100% {
+          /* transform: rotate(360deg); */
+        }
+      }
+}
